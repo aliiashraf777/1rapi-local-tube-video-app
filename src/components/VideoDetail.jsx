@@ -5,7 +5,7 @@ import { Link, useParams } from 'react-router-dom';
 import { fetchFromAPI } from '../utils/fetchFromAPI';
 import { CheckCircle } from '@mui/icons-material';
 import FeedVideos from './FeedVideos';
-
+ 
 const VideoDetail = () => {
 
   const { id } = useParams();
