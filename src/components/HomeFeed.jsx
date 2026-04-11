@@ -4,7 +4,7 @@ import FeedVideos from "./FeedVideos"
 import { useEffect, useState } from "react"
 import { fetchFromAPI } from "../utils/fetchFromAPI"
 
-
+ 
 const HomeFeed = () => {
 
   const [selectedCategory, setSelectedCategory] = useState('New');
